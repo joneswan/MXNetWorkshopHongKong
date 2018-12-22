@@ -56,8 +56,8 @@ Presenters: Cyrus, Thom and Sergey
 |---	|---	|---	|---	|
 |Survey of Recomender Systems	|	|60	|Cyrus	|
 |Profiling MXNet	|Analysis of runtime code to identify performance bottlenecks	|30	|Thom	|
-|Implmentation of MLP on Movie Lens	|	|30	|Cyrus	|
-|MXNet Performance Tricks	|Useful tips for maximizing perfomance of MXNet	|60	|Sergey	|
+|Implementation of MLP on Movie Lens	|	|30	|Cyrus	|
+|MXNet Performance Tricks	|Useful tips for maximizing performance of MXNet	|60	|Sergey	|
 |DSSM Theory	|	|30	|Cyrus	|
 |LR Schedules	|Using custom learning rate schdules	|45	|Thom	|
 |DSSM Implementation	|	|60	|Cyrus	|
@@ -66,31 +66,29 @@ Presenters: Cyrus, Thom and Sergey
 ## Day 4: 13th December 2018
 
 Area of focus: Generative Adversarial Networks, Model Deployment and multi-host training.
-Presenters: Nathalie, Thom and Sergey
+Presenters: Thom, Sergey & Steve
 
 |Title	|Description	|Duration (Mins)	|Presenter	|
 |---	|---	|---	|---	|
-|InfoGAN Theory	|A paper walkthrough of InfoGAN	|30	|Nathalie (Thom)	|
-|InfoGAN Implementation	|A code walkthrough of Gluon implementation of InfoGAN	|60	|Nathalie (Thom)	|
+|InfoGAN Theory	|A paper walkthrough of InfoGAN	|30	| Thom	|
+|InfoGAN Implementation	|A code walkthrough of Gluon implementation of InfoGAN	|60	|Thom	|
 |ECommerce GAN Theory	|A paper walkthrough of e-Commerce GAN	|30	|Sergey	|
 |SageMaker Automatic Model Tuning	|A look at SageMaker's hyperparameter optimization features.	|60	|Thom	|
-|Multi Host training	|Using multiple instances to speed up training	|60	|Sergey	|
-|Multi Host training with SageMaker	|Same as above on SageMaker	|30	|Thom	|
-|MMS Deployment	|MXNet Model Server deployment on AWS Fargate	|60	|TBC (Sergey)	|
-|SageMaker Deployment	|Using SageMaker to deploy an example model.	|30	|TBC (Thom)	|
+|Multi Host training	|Using multiple instances to speed up training (on SageMaker)	|60	|Sergey	|
+|SageMaker Deployment	|Useful patterns for deployment on SageMaker.	|30	|Steve |
+|MMS Deployment	|MXNet Model Server deployment on AWS Fargate	|60	|Sergey |
+
 
 ## Day 5: 14th December 2018
 
 Area of focus: Reinforcement Learning
-Presenters: Thom and Sergey
+Presenters: Thom, Sergey & Steve
 
 |Title	|Description	|Duration (Mins)	|Presenter	|
 |---	|---	|---	|---	|
-|AWS Neo & TVM	|An introduction to model compiliation with AWS Neo	|30	|TBC (Nathalie)	|
-|AWS Elastic Inference	|	|30	|TBC	|
-|RL Theory	|An introduction to RL theory up to PPO and Rainbow.	|60	|Thom	|
-|RL Framework review	|A review of RL frameworks supported by SageMaker RL.	|30	|Thom	|
-|Keras-MXNet 2	|Quick overview of Keras MXNet support	|30	|Sergey	|
-|Coach examples	|A deeper look into Intel's Coach framework	|60	|Thom	|
-|Coach distributed rollouts	|Scaling RL training	|45	|Thom	|
-|Wrap Up	|Opportunity for final questions related to content	|60	|All	|
+|re:Invent ML Announcements| Recap of new ML features	|60	|Steve	|
+|AWS Neo & TVM	|An introduction to model compiliation with AWS Neo	|30	|Thom	|
+|AWS Elastic Inference	|	|30	|Steve	|
+|RL Introduction	|An introduction to RL theory, and SageMaker RL (frameworks)	|45	|Thom	|
+|RL DQN	|An introduction to DQN with SageMaker RL Coach demo.	|45	|Thom	|
+|RL PPO	|An introduction to PPO with SageMaker RL Coach demo.	|45	|Thom	|
